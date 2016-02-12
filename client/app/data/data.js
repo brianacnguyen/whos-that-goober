@@ -109,7 +109,7 @@ angular.module('whosThatGoober.data', [])
     images: ['/assets/LOL-1.png', '/assets/LOL-2.png', '/assets/LOL-3.png'],
     title: 'League of Legends Team Builder',
     subtitle: 'A web application for optimizing character choices based on team lineup',
-    link: '/#/portfolio',
+    link: 'http://lol-team-builder.herokuapp.com/',
     responsibility: ['Collected the official League of Legends data with players data, and designed the front-end architecture with AngularJS for dynamic renderings of recommendations.'],
     description: 'This application helps users pick the right champion based on the picks of their teammates. Simply choose the champions your team has and you will be able to choose the recommended champions!',
     teamMembers: [{
@@ -117,13 +117,31 @@ angular.module('whosThatGoober.data', [])
       linkedin: 'https://www.linkedin.com/in/brianacnguyen',
       job: 'Front-end Developer'
     }]
-  }
+  };
+  var atsu = {
+    images: ['/assets/atsu-1.png', '/assets/atsu-2.png'],
+    title: 'Avoid the Sea Urchins',
+    subtitle: 'A simple asteroid-style dodging game with an aquarium theme (from MapleStory)',
+    link: 'http://avoid-the-sea-urchins.herokuapp.com/',
+    responsibility: [''],
+    description: '',
+    teamMembers: [{
+      name: 'Brian Nguyen',
+      linkedin: 'https://www.linkedin.com/in/brianacnguyen',
+      job: 'Front-end Developer'
+    }, {
+      name: 'Omar Sial',
+      linkedin: 'https://www.linkedin.com/in/omarsial',
+      job: 'Front-end Developer'
+    }]
+  };
   return {
     lol: lol,
     shouldWeWatchThis: shouldWeWatchThis,
     knowhere: knowhere,
     recflix: recflix,
-    doYourApps: doYourApps
+    doYourApps: doYourApps,
+    atsu : atsu
   };
 })
 
