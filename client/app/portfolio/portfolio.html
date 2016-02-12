@@ -1,0 +1,29 @@
+<div>
+    <div ng-repeat="project in projects">    
+        <div class="content-section-a">
+             <div class="container">
+                <div class="row">
+                    <a href={{project.link}}><h2 class="text-center section-heading"> {{project.title}} </h2> </a>
+                    <h4 class="text-center section-heading"> {{project.subtitle}}</h4>
+                    <div class="col-lg-9 col-sm-9">
+                        <div style="height: 305px">
+                            <uib-carousel>
+                                <uib-slide ng-repeat="image in project.images">
+                                    <img ng-src="{{image}}" style="margin:auto;">
+                                </uib-slide>
+                            </uib-carousel>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-3">
+                        <h2>Developers</h2>
+                        <div ng-repeat="member in project.teamMembers">
+                            <a href={{member.linkedin}}<h3>{{member.name}}</h3></a>
+                            <h5>{{member.job}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr ng-if="!$last"class="intro-divider ">
+    </div>
+</div>
