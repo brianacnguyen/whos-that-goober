@@ -119,7 +119,7 @@ angular.module('whosThatGoober.data', [])
     }]
   };
   var atsu = {
-    images: ['/assets/atsu-1.png', '/assets/atsu-2.png'],
+    images: ['/assets/ATSU-1.png', '/assets/ATSU-2.png'],
     title: 'Avoid the Sea Urchins',
     subtitle: 'A simple asteroid-style dodging game with an aquarium theme (from MapleStory)',
     link: 'http://avoid-the-sea-urchins.herokuapp.com/',
@@ -136,7 +136,7 @@ angular.module('whosThatGoober.data', [])
     }]
   };
   var farmHill = {
-    images: ['/assets/fh-1.png', '/assets/fh-2.png'],
+    images: ['/assets/FH-1.png', '/assets/FH-2.png'],
     title: 'FarmHill Page Design',
     subtitle: 'A simple responsive page design as part of the application process for FarmHill',
     link: 'http://soft-eggs.surge.sh/',
