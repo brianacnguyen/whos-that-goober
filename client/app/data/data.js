@@ -135,13 +135,27 @@ angular.module('whosThatGoober.data', [])
       job: 'Front-end Developer'
     }]
   };
+  var farmHill = {
+    images: ['/assets/fh-1.png', '/assets/fh-2.png'],
+    title: 'FarmHill Page Design',
+    subtitle: 'A simple responsive page design as part of the application process for FarmHill',
+    link: 'http://soft-eggs.surge.sh/',
+    responsibility: [''],
+    description: '',
+    teamMembers: [{
+      name: 'Brian Nguyen',
+      linkedin: 'https://www.linkedin.com/in/brianacnguyen',
+      job: 'Front-end Developer'
+    }]
+  };
   return {
     lol: lol,
     shouldWeWatchThis: shouldWeWatchThis,
     knowhere: knowhere,
     recflix: recflix,
     doYourApps: doYourApps,
-    atsu : atsu
+    atsu : atsu,
+    farmHill: farmHill
   };
 })
 
