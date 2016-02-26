@@ -119,7 +119,7 @@ angular.module('whosThatGoober.data', [])
     }]
   };
   var atsu = {
-    images: ['/assets/ATSU-1.png', '/assets/ATSU-2.png'],
+    images: ['/assets/ASU-1.png', '/assets/ASU-2.png'],
     title: 'Avoid the Sea Urchins',
     subtitle: 'A simple asteroid-style dodging game with an aquarium theme (from MapleStory)',
     link: 'http://avoid-the-sea-urchins.herokuapp.com/',
